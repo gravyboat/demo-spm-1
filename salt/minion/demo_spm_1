@@ -1,0 +1,12 @@
+file_client: local
+
+file_roots:
+  base:
+    - /srv/salt
+    - /srv/salt/demo-spm-1
+
+pillar_roots:
+  base:
+    - /srv/pillar
+
+extension_modules: /srv/salt/modules

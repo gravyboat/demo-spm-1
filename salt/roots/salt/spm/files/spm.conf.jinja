@@ -1,0 +1,15 @@
+#
+# SPM demo nginx config
+#
+server {
+    listen       80;
+    server_name   _;
+    # Load configuration files for the default server block.
+    include /etc/nginx/default.d/*.conf;
+    root /srv/spm;
+
+
+    location / {
+    }
+
+}
